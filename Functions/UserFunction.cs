@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab_2
 {
-    public class UserFunction
+    public class UserFunction : IFunction
     {
         public double calc(double x)
         {
