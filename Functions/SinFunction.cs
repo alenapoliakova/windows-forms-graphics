@@ -13,5 +13,9 @@ namespace lab_2
             // returns y for function y = sin(x)
             return Math.Sin(x);
         }
+        public override string ToString()
+        {
+            return "y = sin(x)";
+        }
     }
 }

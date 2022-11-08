@@ -13,5 +13,9 @@ namespace lab_2
             // returns y for function y = x^3
             return x * x * x;
         }
+        public override string ToString()
+        {
+            return "y = x^3";
+        }
     }
 }

@@ -13,5 +13,9 @@ namespace lab_2
             // returns y for function y = tang(x)
             return Math.Tan(x);
         }
+        public override string ToString()
+        {
+            return "y = tang(x)";
+        }
     }
 }
